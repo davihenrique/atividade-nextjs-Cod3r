@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\pages\\basicos\\primeiro.js"
+            "program": "${file}"
         }
     ]
 }

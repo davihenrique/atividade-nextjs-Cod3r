@@ -33,6 +33,7 @@ export default function megasena() {
           display: "flex",
           flexDirection: "row",
         }}
+        
       >
         <ContadorDisplay numero={num[0]} />
         <ContadorDisplay numero={num[1]} />

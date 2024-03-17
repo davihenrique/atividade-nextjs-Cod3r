@@ -25,8 +25,6 @@ function quandoMover(ev){
     alterarY(ev.clientY)
 
 }
-
-
     return(
         <div style={stilo} onMouseMove={quandoMover}>
             <span>Eixo X: {x}</span>

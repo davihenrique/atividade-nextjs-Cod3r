@@ -1,9 +1,9 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { useState } from "react";
 
 export default function mouse(){
     // Reach Hooks
     const [x, setX] = useState(0)
-
     const arrayY = useState(0)
     let y = arrayY[0]
     const alterarY = arrayY[1]

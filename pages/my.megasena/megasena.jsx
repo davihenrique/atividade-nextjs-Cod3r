@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import ContadorDisplay from "../../components/ContadorDisplay";
+import ContadorDisplay from "../../components/NumeroContadorDisplay";
 
 export default function megasena() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [num, setNum] = useState(["?", "?", "?", "?", "?", "?"]);
 
   function randomNumbers() {
@@ -33,7 +34,6 @@ export default function megasena() {
           display: "flex",
           flexDirection: "row",
         }}
-        
       >
         <ContadorDisplay numero={num[0]} />
         <ContadorDisplay numero={num[1]} />

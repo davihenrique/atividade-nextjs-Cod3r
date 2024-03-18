@@ -1,7 +1,8 @@
 import { useState } from "react";
-import ContadorDisplay from "../../components/ContadorDisplay";
+import NumeroContadorDisplay from "../../components/NumeroContadorDisplay";
 
 export default function contador() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [contador, setContador] = useState(0);
 
   function darUmUp() {
@@ -21,7 +22,7 @@ export default function contador() {
       }}
     >
       <h1>Contador</h1>
-      <ContadorDisplay numero={contador} />
+      <NumeroContadorDisplay numero={contador} />
       <div>Valor: {contador}</div>
       <div>
         <button onClick={darUmDown}>-</button>

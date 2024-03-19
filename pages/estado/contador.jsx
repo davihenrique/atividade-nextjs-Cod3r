@@ -2,7 +2,6 @@ import { useState } from "react";
 import NumeroContadorDisplay from "../../components/NumeroContadorDisplay";
 
 export default function contador() {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [contador, setContador] = useState(0);
 
   function darUmUp() {

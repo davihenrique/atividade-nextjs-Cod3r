@@ -11,7 +11,6 @@ export default function contador() {
   function darUmDown() {
     setContador((c) => c - 1);
   }
-  
   return (
     <div
       style={{

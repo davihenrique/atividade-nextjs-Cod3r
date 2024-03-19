@@ -1,11 +1,12 @@
 name: Lint
 
 on:
-  pull_request:
+  push:
     branches:
       - main
-      - staging
       - develop
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
   run-linters:

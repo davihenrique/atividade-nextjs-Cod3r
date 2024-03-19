@@ -8,9 +8,6 @@ export default function contador() {
     setContador((c) => c + 1);
   }
 
-
-  
-
   function darUmDown() {
     setContador((c) => c - 1);
   }

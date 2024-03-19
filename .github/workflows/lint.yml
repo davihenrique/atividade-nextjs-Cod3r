@@ -1,17 +1,15 @@
 name: Lint
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
+      - staging
       - develop
 
 jobs:
   run-linters:
-    name: Lint
+    name: Run Lint
     runs-on: ubuntu-latest
 
     steps:
